@@ -1,9 +1,10 @@
 import "./App.css";
+import TimeCard from "./components/TimeCard";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <TimeCard />
     </div>
   );
 }
